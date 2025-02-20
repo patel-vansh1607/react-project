@@ -1,9 +1,11 @@
 import './App.css';
+import CounterComponent from './components/headComponent';
+
 
 function App() {
   return (
     <div className="App">
-      <headerComponent/>
+      <CounterComponent/>
     </div>
   );
 }
